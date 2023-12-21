@@ -73,7 +73,7 @@ const BreweryPage = ({responsiveClass}) => {
                         <div className={`column ${instaResponsiveClass=='hide' ? 'is-two-thirds' : 'is-two-fifths'}`}>
                             <div className={`brewery-page-title ${responsiveClass}`}>About Us</div>
                             <div className={`brewery-page-about-us-image-wrapper`}>
-                                    <img className={`brewery-page-about-us-image ${responsiveClass}`} src="src/assets/jeffwilly.webp" alt="" />
+                                    <img className={`brewery-page-about-us-image ${responsiveClass}`} src="static/images/jeffwilly.webp" alt="" />
                                 </div>
                             <div className={`brewery-page-about-us ${responsiveClass}`}>
 
