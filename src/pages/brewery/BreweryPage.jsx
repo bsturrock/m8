@@ -103,7 +103,7 @@ const BreweryPage = ({responsiveClass}) => {
                     <div className={`brewery-page-title ${responsiveClass}`}>About Us</div>
                     <div className={`brewery-page-about-us ${responsiveClass}`}>
                         <div className={`brewery-page-about-us-image-wrapper`}>
-                            <img className={`brewery-page-about-us-image ${responsiveClass}`} src="static/public/jeffwilly.webp" alt="" />
+                            <img className={`brewery-page-about-us-image ${responsiveClass}`} src="static/images/jeffwilly.webp" alt="" />
                         </div>
                         <div className={`brewery-page-about-us-content ${responsiveClass}`}>
                             <RenderedText text={aboutus}/>
