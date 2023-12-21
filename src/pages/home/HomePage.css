@@ -1,0 +1,19 @@
+.home {
+    background-color: black;
+    height: 75%;
+}
+
+body {
+    background-color: black;
+    font-family: "Helvetica";
+}
+
+html {
+    background-color: black !important;
+
+}
+
+/* .app {
+    height: 100vh;
+} */
+

@@ -1,0 +1,33 @@
+.beer-name {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Oswald";
+    color: #ECB438;
+}
+
+.beer-type {
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.beer-abv{
+    display: block;
+    font-size: 14px;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+.beer-owner{
+    font-weight: bold !important;
+}
+
+.beer-description {
+    font-size: 12px;
+}
+
+.beer-container{
+    display: block;
+    padding: 15px;
+    color: white;
+}

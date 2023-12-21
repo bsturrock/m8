@@ -1,0 +1,232 @@
+/* LARGE */
+
+.brewery-page-about-us-image.large{
+    max-width: 183px;
+    max-height: 300px;
+    min-width: 183px;
+    min-height: 300px;
+    margin-top: 18px;
+}
+
+.brewery-page-about-us-image.small {
+    float: none;
+    margin: auto;
+    display: block;
+}
+
+
+
+.rendered-text-block.large{
+    font-size: 0.9em !important;;
+    padding-bottom: 2px;
+}
+
+.brewery-wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1.5%;
+}
+
+
+.rendered-text-block{
+    font-size: 0.95em !important;;
+    color: white;
+    font-family: "Helvetica";
+    margin-bottom: 10px;
+    text-align: justify;
+
+
+}
+
+.brewery-page-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #ECB438;
+    margin-bottom: 20px;
+    font-family: "Oswald";
+    text-transform: uppercase;
+}
+
+.brewery-page-title.small {
+    margin-top: 20px;
+}
+
+.brewery-page-about-us-image{
+    max-width: 244px;
+    max-height: 418px;
+    min-width: 244px;
+    min-height: 418px;
+    margin-right:10px;
+    margin-bottom: 5px;
+    margin-top: 6px;
+    float: left;
+}
+
+.brewery-page-why-baltimore-title {
+    display: block;
+    margin-top: 15px !important;
+    font-weight: bold !important;
+    color: #ECB438;
+    text-transform: uppercase;
+}
+
+
+.about-us-schedule {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.about-us-schedule p {
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.1em;
+    font-family: "Oswald";
+}
+
+
+.about-us-ravens {
+    color: #5745cc;
+    font-weight: bold;
+}
+
+.location-block p {
+    color: white;
+    font-weight: normal;
+    font-family: "Oswald";
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.map {
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+.google-map {
+    width: 300px;
+    height: 233px;
+}
+
+.google-map.large {
+    width: 250px;
+    height: 233px;
+}
+
+
+.google-map.medium {
+    width: 225px;
+    height: 200px;
+}
+
+.google-map.small {
+    width: 210px;
+    height: 200px;
+}
+
+
+.google-map.hide {
+    width: 225px;
+    height: 233px; 
+}
+
+.show {
+    border: 1px solid white;
+}
+
+.brewery-page-insta-pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.brewery-page-insta-pic {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    position: relative;
+}
+
+.brewery-page-insta-pic.medium {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    position: relative;
+}
+
+
+.brewery-page-insta-pic.medium:hover::after{
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 0;
+    top: 0;
+    background-color: rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+
+
+.brewery-page-insta-pic.large {
+    display: block;
+    width: 175px;
+    height: 175px;
+    margin: 5px;
+    position: relative;
+}
+
+.brewery-page-insta-pic.large:hover::after{
+    content: '';
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    left: 0;
+    top: 0;
+    background-color: rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+
+.brewery-page-insta-pic.small {
+    display: block;
+    width: 175px;
+    height: 175px;
+    margin: 5px;
+    position: relative;
+}
+
+.brewery-page-insta-pic.small:hover::after{
+    content: '';
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    left: 0;
+    top: 0;
+    background-color: rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+
+.brewery-page-insta-pic:hover::after{
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 0;
+    top: 0;
+    background-color: rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+
+.column.hide {
+    display: none !important;
+}
+
+.location-block{
+    font-weight: normal;
+    margin-top: 50px;
+}

@@ -1,0 +1,49 @@
+.food-container{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    color: white;
+}
+
+.food-container.small {
+    padding: 10px;
+}
+
+.food-name.small {
+    font-size: 16px;
+}
+
+.food-name {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Oswald";
+    color: #ECB438;
+}
+
+.food-details {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.food-details.small {
+    font-size: 11px;
+}
+
+.food-info {
+    display: block;
+    flex: 1;
+    font-family: "Oswald";
+}
+
+.food-price {
+    font-weight: bold;
+    padding-left: 25px;
+    font-family: 'Oswald';
+    font-size: 24px;
+    color: #ECB438;
+}
+
+.food-price.small {
+    font-size: 16px;
+    padding-left: 15px;
+}

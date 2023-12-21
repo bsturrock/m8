@@ -1,0 +1,135 @@
+
+/* SMALL */
+
+.navigation-link.small {
+    padding: 10px;
+    text-transform: uppercase;
+    color: #ECB438;
+    font-family: "Oswald";
+}
+
+.navigation-link.small:hover {
+    color: #ffc852;
+}
+
+.nav-image.small {
+    width: 73.5px;
+    height: 65.5px;
+    max-width: 73.5px;
+    max-height: 65.5px;
+}
+
+.nav-image-holder.small {
+    display: block;
+    width: 73.5px;
+    height: 65.5px;
+    margin: auto;
+    background-color: black;
+    position: relative;
+}
+
+.nav-image-holder.small:hover::after {
+    content: "";
+    display: block;
+    background-color: rgba(255,255,255,0.1);
+    position: absolute;
+    width: 73.5px;
+    height: 65.5px;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-35px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fall-0 {
+    animation: 0.5s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideDown;
+}
+
+/* DESKTOP */
+
+.logo-holder {
+    padding-top: 10px;
+    background-color: black;
+}
+
+.nav-image {
+    width: 147px;
+    height: 131px;
+    max-width: 147px;
+    max-height: 131px;
+    min-width: 147px;
+    min-height: 131px;
+}
+
+
+
+.nav-image-holder {
+    display: block;
+    width: 147px;
+    height: 131px;
+    margin: auto;
+    background-color: black;
+    position: relative;
+}
+
+.nav-image-holder:hover::after {
+    content: "";
+    display: block;
+    background-color: rgba(255,255,255,0.1);
+    position: absolute;
+    width: 147px;
+    height: 131px;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+
+
+
+
+.navbar {
+    background-color: black !important;
+}
+
+.nav-holder {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    background-color: black;
+}
+
+nav {
+    background-color: black;
+    margin-top: 20px;
+}
+
+.navigation-link {
+    padding: 20px;
+    text-transform: uppercase;
+    color: #ECB438;
+    font-family: "Oswald";
+}
+
+.navigation-link:hover {
+    color: #ffc852;
+}
+
+
+.active {
+    color: white !important;
+}
+
+html {
+    background-color: black !important;
+}
