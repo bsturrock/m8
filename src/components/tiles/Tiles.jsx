@@ -39,7 +39,7 @@ const Tiles = ({responsiveClass, showAnims, setShowAnims}) => {
                 </div>
 
                 <div className={`${showAnims ? 'fall-7' : ''} image-tile ${responsiveClass}`}>
-                    <img  className={`${showAnims ? 'fall-7' : ''} image-raw ${responsiveClass}`} onAnimationEnd={()=>setTimeout(setShowAnims(false),500)}src="static/images/kangar_sq.jpg"/>
+                    <img  className={`${showAnims ? 'fall-7' : ''} image-raw ${responsiveClass}`} onAnimationEnd={()=>setTimeout(setShowAnims(false),1000)}src="static/images/kangar_sq.jpg"/>
                 </div>
             </div>
     )
