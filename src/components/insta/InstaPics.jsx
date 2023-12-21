@@ -9,22 +9,22 @@ const InstaPics = ({instaResponsiveClass}) => {
         return(
                 <div className={`brewery-page-insta-pics ${instaResponsiveClass}`}>
                 <a target="_blank" rel='noreferrer' href='https://www.instagram.com/m8beerco' className={`brewery-page-insta-pic ${instaResponsiveClass}`}>
-                    <img src="src/assets/insta/solo_sq.jpg" alt="" />
+                    <img src="static/images/insta/solo_sq.jpg" alt="" />
                 </a>
                 <a target="_blank" rel='noreferrer' href='https://www.instagram.com/m8beerco' className={`brewery-page-insta-pic ${instaResponsiveClass}`}>
-                    <img src="src/assets/insta/smiling_sq.jpg" alt="" />
+                    <img src="static/images/insta/smiling_sq.jpg" alt="" />
                 </a>
                 <a target="_blank" rel='noreferrer' href='https://www.instagram.com/m8beerco' className={`brewery-page-insta-pic ${instaResponsiveClass}`}>
-                    <img src="src/assets/insta/pork_sq.jpg" alt="" />
+                    <img src="static/images/insta/pork_sq.jpg" alt="" />
                 </a>
                 <a target="_blank" rel='noreferrer' href='https://www.instagram.com/m8beerco' className={`brewery-page-insta-pic ${instaResponsiveClass}`}>
-                    <img src="src/assets/insta/group_sq.jpg" alt="" />
+                    <img src="static/images/insta/group_sq.jpg" alt="" />
                 </a>
                 <a target="_blank" rel='noreferrer' href='https://www.instagram.com/m8beerco' className={`brewery-page-insta-pic ${instaResponsiveClass}`}>
-                    <img src="src/assets/insta/food_sq.jpg" alt="" />
+                    <img src="static/images/insta/food_sq.jpg" alt="" />
                 </a>
                 <a target="_blank" rel='noreferrer' href='https://www.instagram.com/m8beerco' className={`brewery-page-insta-pic ${instaResponsiveClass}`}>
-                    <img src="src/assets/insta/drinking_sq.jpg" alt="" />
+                    <img src="static/images/insta/drinking_sq.jpg" alt="" />
                 </a>
             </div>
         )
@@ -32,31 +32,31 @@ const InstaPics = ({instaResponsiveClass}) => {
         return (
             <div className={`brewery-page-insta-pics ${instaResponsiveClass}`}>
             <a target="_blank" rel='noreferrer' href='https://www.instagram.com/m8beerco' className={`brewery-page-insta-pic ${instaResponsiveClass}`}>
-                <img src="src/assets/insta/solo_sq.jpg" alt="" />
+                <img src="static/images/insta/solo_sq.jpg" alt="" />
             </a>
             <a target="_blank" rel='noreferrer' href='https://www.instagram.com/m8beerco' className={`brewery-page-insta-pic ${instaResponsiveClass}`}>
-                <img src="src/assets/insta/smiling_sq.jpg" alt="" />
+                <img src="static/images/insta/smiling_sq.jpg" alt="" />
             </a>
             <a target="_blank" rel='noreferrer' href='https://www.instagram.com/m8beerco' className={`brewery-page-insta-pic ${instaResponsiveClass}`}>
-                <img src="src/assets/insta/pork_sq.jpg" alt="" />
+                <img src="static/images/insta/pork_sq.jpg" alt="" />
             </a>
             <a target="_blank" rel='noreferrer' href='https://www.instagram.com/m8beerco' className={`brewery-page-insta-pic ${instaResponsiveClass}`}>
-                <img src="src/assets/insta/group_sq.jpg" alt="" />
+                <img src="static/images/insta/group_sq.jpg" alt="" />
             </a>
             <a target="_blank" rel='noreferrer' href='https://www.instagram.com/m8beerco' className={`brewery-page-insta-pic ${instaResponsiveClass}`}>
-                <img src="src/assets/insta/food_sq.jpg" alt="" />
+                <img src="static/images/insta/food_sq.jpg" alt="" />
             </a>
             <a target="_blank" rel='noreferrer' href='https://www.instagram.com/m8beerco' className={`brewery-page-insta-pic ${instaResponsiveClass}`}>
-                <img src="src/assets/insta/drinking_sq.jpg" alt="" />
+                <img src="static/images/insta/drinking_sq.jpg" alt="" />
             </a>
             <a target="_blank" rel='noreferrer' href='https://www.instagram.com/m8beerco' className={`brewery-page-insta-pic ${instaResponsiveClass}`}>
-                <img src="src/assets/insta/dog_sq.jpg" alt="" />
+                <img src="static/images/insta/dog_sq.jpg" alt="" />
             </a>
             <a target="_blank" rel='noreferrer' href='https://www.instagram.com/m8beerco' className={`brewery-page-insta-pic ${instaResponsiveClass}`}>
-                <img src="src/assets/insta/rugby_sq.jpg" alt="" />
+                <img src="static/images/insta/rugby_sq.jpg" alt="" />
             </a>
             <a target="_blank" rel='noreferrer' href='https://www.instagram.com/m8beerco' className={`brewery-page-insta-pic ${instaResponsiveClass}`}>
-                <img src="src/assets/insta/equip_sq.jpg" alt="" />
+                <img src="static/images/insta/equip_sq.jpg" alt="" />
             </a>
     
         </div>
