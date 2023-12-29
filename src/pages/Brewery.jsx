@@ -27,7 +27,7 @@ const Brewery = () => {
         {readyToShow && imgLoaded && (
         <div className="brewery-content">
             <div className="about-us">
-                <img src="static/jeffwilly550x400.png" alt="" onLoad={()=>setImgLoaded(true)}/>
+                <img src="static/jeffwilly550x400.png" alt="" onLoad={()=>setTimeout(setImgLoaded(true),200)}/>
                 <div className='about-us-content'>
                     <h2 className='why-baltimore'>Welcome to M8 Brewery</h2>
                     {renderedAboutUs}
