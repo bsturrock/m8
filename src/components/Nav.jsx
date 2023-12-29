@@ -40,7 +40,7 @@ const Nav = () => {
             
                 <NavLink to='/' className="nav-logo-floating-container">
                     <div className="nav-logo-floating">
-                        <img src="public/static/main_logo.png" alt="" />
+                        <img src="static/main_logo.png" alt="" />
                     </div>
                 </NavLink>
             
@@ -58,7 +58,7 @@ const Nav = () => {
             
             <NavLink to='/' className="nav-logo-container">
                 <div className="nav-logo">
-                    <img src="public/static/main_logo.png" alt="" />
+                    <img src="static/main_logo.png" alt="" />
                 </div>
             </NavLink>
             

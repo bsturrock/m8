@@ -7,9 +7,11 @@ const Brewery = () => {
     const date = new Date();
     const day = date.getDay();
     const [readyToShow, setReadyToShow] = useState(false)
+    const [imgLoaded, setImgLoaded] = useState(false)
 
     useEffect(()=>{
         const getPageData = async () => {
+            willyJeff[0].src = "static/jeffwilly550x400.png"
             let res = await fetch("static/data/about-us.json", {headers:{'Content-Type' : 'application/json'}})
             let res_json = await res.json()
             setAboutUs(res_json['about-us'])
@@ -22,10 +24,10 @@ const Brewery = () => {
     const renderedAboutUs = aboutUs.map((ele, index)=> <p>{ele}</p>)
     return (
         <>
-        {readyToShow && (
+        {readyToShow && imgLoaded && (
         <div className="brewery-content">
             <div className="about-us">
-                <img src="static/jeffwilly550x400.png" alt="" />
+                <img src="static/jeffwilly550x400.png" alt="" onLoad={()=>setImgLoaded(true)}/>
                 <div className='about-us-content'>
                     <h2 className='why-baltimore'>Welcome to M8 Brewery</h2>
                     {renderedAboutUs}
