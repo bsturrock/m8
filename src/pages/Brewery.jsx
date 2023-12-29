@@ -11,7 +11,6 @@ const Brewery = () => {
 
     useEffect(()=>{
         const getPageData = async () => {
-            willyJeff[0].src = "static/jeffwilly550x400.png"
             let res = await fetch("static/data/about-us.json", {headers:{'Content-Type' : 'application/json'}})
             let res_json = await res.json()
             setAboutUs(res_json['about-us'])
