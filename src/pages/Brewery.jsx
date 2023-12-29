@@ -6,6 +6,7 @@ const Brewery = () => {
     const [whyBaltimore, setWhyBaltimore] = useState('')
     const date = new Date();
     const day = date.getDay();
+    const [readyToShow, setReadyToShow] = useState(false)
 
     useEffect(()=>{
         const getPageData = async () => {
@@ -15,11 +16,13 @@ const Brewery = () => {
             setWhyBaltimore(res_json['why-baltimore'])
         }
 
-        getPageData()
+        getPageData().then(()=>setTimeout(setReadyToShow(true), 100))
     },[])
 
     const renderedAboutUs = aboutUs.map((ele, index)=> <p>{ele}</p>)
     return (
+        <>
+        {readyToShow && (
         <div className="brewery-content">
             <div className="about-us">
                 <img src="static/jeffwilly550x400.png" alt="" />
@@ -82,7 +85,8 @@ const Brewery = () => {
 
 
         </div>
-        
+        )}
+        </>
     )
 }
 
