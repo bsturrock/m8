@@ -44,16 +44,17 @@ const Menu = () => {
 
         }
         
-        fetchData().then(()=>setReadyToShow(true))
+        fetchData().then(()=>setTimeout(setReadyToShow(true),100))
 
     },[])
 
     return (
-        <>        
+        <>    
+        {readyToShow &&     
         <div className="nav beer-food-nav">
             <div onClick={()=>setMenuType(true)} className={`nav-item sub-menu ${menuType ? 'selected' : ''}`}>Beer</div>
             <div onClick={()=>setMenuType(false)} className={`nav-item sub-menu ${!menuType ? 'selected' : ''}`}>Food</div>
-        </div>
+        </div>}
 
         {readyToShow && 
             <div className={`menu ${responsiveClass}`}>
@@ -62,7 +63,6 @@ const Menu = () => {
             </div>
         }
         </>
-
     )
 }
 
