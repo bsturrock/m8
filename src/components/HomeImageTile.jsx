@@ -1,4 +1,4 @@
-import './HomeImageTile.css'
+
 
 const HomeImageTile = ({img, responsiveClass}) => {
     return (
