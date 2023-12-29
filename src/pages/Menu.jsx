@@ -32,13 +32,13 @@ const Menu = () => {
         }
 
         const fetchBeers = async () => {
-            let res = await fetch('static/data/beers.json')
+            let res = await fetch('static/data/beers.json',{headers:{'Content-Type' : 'application/json'}})
             let res_json = await res.json()
             setBeers(res_json)
         }
 
         const fetchFood = async () => {
-            let res = await fetch('static/data/food.json')
+            let res = await fetch('static/data/food.json',{headers:{'Content-Type' : 'application/json'}})
             let res_json = await res.json()
             setFood(res_json)   
 

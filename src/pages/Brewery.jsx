@@ -9,7 +9,7 @@ const Brewery = () => {
 
     useEffect(()=>{
         const getPageData = async () => {
-            let res = await fetch("src/data/about-us.json")
+            let res = await fetch("static/data/about-us.json", {headers:{'Content-Type' : 'application/json'}})
             let res_json = await res.json()
             setAboutUs(res_json['about-us'])
             setWhyBaltimore(res_json['why-baltimore'])
