@@ -9,6 +9,7 @@ const Brewery = () => {
     const [readyToShow, setReadyToShow] = useState(false)
     const [imgLoaded, setImgLoaded] = useState(false)
 
+    
     useEffect(()=>{
         const getPageData = async () => {
             let res = await fetch("static/data/about-us.json", {headers:{'Content-Type' : 'application/json'}})
@@ -19,6 +20,15 @@ const Brewery = () => {
 
         getPageData().then(()=>setTimeout(setReadyToShow(true), 100))
     },[])
+
+    // useEffect(()=>{
+    //     const img = new Image();
+    //     img.onload = () => {
+    //       // when it finishes loading, update the component state
+    //       setImgLoaded(true);
+    //     }
+    //     img.src = 'statuc/jeffwilly550x400.png'; // by setting an src, you trigger browser download
+    // },[])
 
     const renderedAboutUs = aboutUs.map((ele, index)=> <p>{ele}</p>)
     return (
