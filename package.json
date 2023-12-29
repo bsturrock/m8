@@ -1,5 +1,6 @@
 {
   "name": "new_project",
+  "homepage" : "https://bsturrock.github.io/m8/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
