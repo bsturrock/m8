@@ -22,7 +22,6 @@
 }
 
 .nav.normal {
-    /* animation: 1s 0s forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideDown; */
     animation: 1s 0s forwards cubic-bezier(.36,-0.01,.4,1) slideDown;
 
 }
@@ -43,7 +42,7 @@
     z-index: 999;
     margin: 0;
     height: auto;
-    animation: .5s 0s forwards linear slideDown;
+    animation: .5s 0s forwards linear justSlide;
     box-shadow: 1px 4px 10px rgb(0,0,0);
 
 }
@@ -171,6 +170,15 @@
     }
     100% {
         opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes justSlide {
+    0% {
+        transform: translateY(-35px);
+    }
+    100% {
         transform: translateX(0);
     }
 }
