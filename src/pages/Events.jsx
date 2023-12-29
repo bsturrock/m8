@@ -14,7 +14,7 @@ const Events = () => {
 
     useEffect(()=>{
         const fetchEvents = async () => {
-            let res = await fetch('src/data/events.json')
+            let res = await fetch('static/data/events.json')
             let res_json = await res.json()
             setEvents(res_json)
         }
