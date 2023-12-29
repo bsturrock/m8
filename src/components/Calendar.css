@@ -1,0 +1,140 @@
+.calendar {
+    width: fit-content;
+    margin: auto;
+    margin-top: 25px;
+}
+.space {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.calendar-day{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border: 1px solid white;
+    transition: .2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    position: relative;
+    background-color: rgb(60,60,60);
+}
+
+.calendar-header {
+    width: 150px;
+    height: 25px;
+    margin: 5px;
+}
+
+.calendar-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Teko";
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.calendar {
+    max-width: 1120px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 775px;
+}
+
+.day-marker {
+    font-family: 'Teko';
+    font-size: 18px;
+    width: fit-content;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.event {
+    height: fit-content;
+    background-color: rgb(100,100,100);
+    color: white;
+    font-family: 'Teko';
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3px 0;
+    margin: 2px 0;
+}
+
+.current-day .event {
+    background-color: rgb(144, 113, 0);
+}
+
+.past .event {
+    background-color: rgb(50,50,50);
+    color: rgb(150,150,150)
+}
+
+.past .event:hover {
+    background-color: rgb(50,50,50);
+    cursor: default;
+}
+
+.current-day .event:hover {
+    background-color: rgb(204, 160, 0);
+}
+
+.event:hover {
+    background-color: rgb(120,120,120);
+    cursor: pointer;
+}
+
+.calendar-date-title {
+    margin: auto;
+    width: fit-content;
+    margin-top: 25px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.calendar-title-text {
+    font-family: "Teko";
+    letter-spacing: 2px;
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    min-width: 200px;
+}
+.current-day {
+    border: 1px solid rgb(255,200,0);
+    background-color: rgb(83, 74, 44);
+}
+
+.current-day .day-marker {
+    color: rgb(255,200,0)
+}
+
+.past {
+    border: 1px solid rgb(100,100,100);
+    background-color: transparent;
+
+}
+
+.past .day-marker {
+    color: rgb(100,100,100)
+}
+
+
+.calendar-date-title button {
+    width: 25px;
+    border: 1px solid rgb(100,100,100);
+    background: transparent;
+    color: white;
+    margin: 0 20px;
+    transition: .2s;
+}
+
+.calendar-date-title button:hover {
+    background-color: rgb(120,120,120);
+    cursor: pointer;
+}

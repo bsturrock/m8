@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Wings",
+        "extras": ["with Ranch or Blue Cheese", "Buffalo | Honey Old Bay | Carolina Gold | Garlic Cajun | Smoked | Cauliflower"],
+        "price": "10.75"
+    },
+    {
+        "name": "Nachos",
+        "extras": ["with 2 Salsas, Queso, Sour Cream, Cilantro","Chicken (+$3) | Pulled Pork (+$3) | Steak (+$5)"],
+        "price": "8.75"
+    },
+    {
+        "name": "Fried Pickles",
+        "extras": ["with M8 Sauce"],
+        "price": "4.75"
+    },
+    {
+        "name": "Classic or Beer Brat",
+        "extras": ["with kraut and whole grain mustard, served on a roll"],
+        "price": "9.25"
+    },
+    {
+        "name": "Aussie Sausage Roll",
+        "extras": ["with beef or pork"],
+        "price": "9.25"
+    },
+    {
+        "name": "Aussie Steak and Mushroom Pie",
+        "extras": [],
+        "price": "13.75"
+    },
+    {
+        "name": "Sliders",
+        "extras": ["with pulled pork or chicken, pickled reds, fresh slaw, and Carolina gold sauce"],
+        "price": "12.50"
+    },
+    {
+        "name": "Philly Cheesesteak Sliders",
+        "extras": ["with thinly sliced Ribeye, monterey jack, peppers and onions"],
+        "price": "14.80"
+    }
+]

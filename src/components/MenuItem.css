@@ -1,0 +1,99 @@
+.menu-item {
+    padding: 15px 0;
+    display: flex;
+    width: 100%;
+}
+
+.menu-item-extra{
+    padding-top:3px;
+    padding-bottom: 3px;
+    font-size: 20px;
+    font-family: 'Teko';
+}
+
+.menu-item-name {
+    color: rgb(255,200,0);
+    font-size: 34px;
+    font-weight: bold;
+    flex: 1;
+    display: block;
+    font-family: 'Teko';
+}
+
+
+.menu-item-type {
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left: 10px;
+    color: rgb(255,200,0);
+    font-weight: normal;
+    font-family: "Teko";
+}
+
+
+
+.menu-item-name-and-type{
+    display: flex;
+    align-items: flex-end;
+    flex: 1;
+    width: 100%;
+}
+
+.menu-item-abv {
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-left: 5px;
+    color: rgb(255,200,0);
+    font-weight: normal;
+    font-family: 'Teko';
+}
+
+.menu-item-brewery {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Teko';
+    font-size: 20px;
+}
+
+.menu-item-description {
+    padding-top:0.3%;
+    text-align: justify;
+    font-family: 'Teko';
+    font-size: 20px;
+}
+
+.menu-item-info {
+    flex: 1;
+}
+
+.menu-item-price {
+    color: rgb(255,200,0);
+    font-size: 34px;
+    font-weight: bold;
+    font-family: "Teko";
+}
+
+
+.menu-subtitle.hide{
+    color: transparent;
+}
+
+.menu-item-price.mobile {
+    font-size: 24px;
+}
+
+.menu-item-name.mobile {
+    font-size: 24px;
+}
+
+.menu-item-brewery.mobile {
+    font-size: 16px;
+}
+
+.menu-item-type.mobile {
+    padding: 0;
+}
+
+.menu-item-description.mobile{
+    font-size: 16px;
+}

@@ -1,0 +1,16 @@
+.menu-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: rgb(255,200,0)
+}
+
+.menu-subtitle {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+.menu-subtitle.mobile {
+    margin-top: 20px;
+}

@@ -1,0 +1,29 @@
+.sub-menu {
+    color: rgb(150,150,150);
+}
+
+.selected {
+    color: white;
+    text-shadow: 0px 0px 15px white;
+}
+
+.selected:hover{
+    cursor: default;
+    background-color: transparent;
+}
+
+.menu {
+    margin: 2% 10%;
+    animation: .5s 0s forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) fade;
+
+}
+
+.menu.mobile {
+    margin: 2% 2%;
+}
+
+
+.beer-food-nav {
+    animation: .5s 0s forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) fade;
+
+}
