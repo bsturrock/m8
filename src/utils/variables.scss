@@ -1,8 +1,8 @@
 
+
 @font-face {
     font-family: 'Norwester';
-    src: local('Norwester'),
-        url('../../public/fonts/norwester.otf') format('opentype');
+    src: url('src/fonts/norwester.otf') format('opentype');
 }
 
 $m8-black: #191919;
