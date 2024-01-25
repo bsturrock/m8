@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: 'Norwester';
+    src: local('Norwester'),
+        url('src/fonts/norwester.otf') format('opentype');
+}
+
+$m8-black: #191919;
+$m8-orange: #DA390E;
+$m8-light-orange: #d1bcb6;
+$m8-light-yellow: #DFB75B;
+$m8-dark-yellow: #C39732;
+
+$neutral: #EBECE4;
+$neutral-hover: #c9c9c9;
+
+$base-font: 'Inter';
+$header-font: 'Amatic SC';
+$base-font-color: #404040;
+$brand-font: 'Norwester';
+
+$header-font-size: clamp(20px, 3vw, 80px);
+$p-font-size: clamp(8px, .7vw, 20px);
+$splash-font-size: clamp(10px, .8vw, 20px);
+$sub-header-font-size: clamp(8px, 1vw, 24px);
+

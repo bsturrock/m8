@@ -1,0 +1,310 @@
+@import "src/utils/variables.scss";
+
+.full-page-nav {
+    height: 100vh;
+    background-color: #836844;
+    // background-image:url('public/static/images/variant-brewing-darker.png');
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    display: block;
+    margin-bottom: 3vh;
+    position: relative;
+    z-index: 1;
+}
+
+#splash-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    -webkit-transition: all 1s ease;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.show-splash {
+    animation: showSplash 1s ease forwards;
+}
+
+@keyframes showSplash {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.main-navigation-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: fit-content;
+
+}
+
+.main-navigation {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+}
+
+.brand-logo {
+    width: 10vw;
+    height: 10vw;
+}
+
+.navigation-item {
+    padding: 0vw 2vw;
+    min-width: 10vw;
+    font-family: $brand-font;
+}
+
+.nav-selector {
+    color: rgb(240,240,240);
+    text-transform: uppercase;
+    font-size: 1.5vw;
+    position: relative;
+    width: fit-content;
+    transition: .2s;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.6);
+}
+
+.nav-selector:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.nav-selector:hover::after{
+    content:'';
+    display: block;
+    border-top: 2px solid white;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.6);;
+    width: 0%;
+    position: absolute;
+    left: 50%;
+    top: 105%;
+    transform: translateX(-50%);
+    animation: navUnderline .2s linear forwards;
+
+}
+
+@keyframes navUnderline {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%
+    }
+}
+
+.nav-selector.left {
+    text-align: right;
+}
+
+.nav-selector.right {
+    text-align: left;
+}
+
+.nav-splash {
+    margin: auto;
+    width: fit-content;
+    padding-top: 5vh;
+    z-index: 999;
+}
+
+.nav-greeting {
+    font-family: $brand-font;
+    color: white;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.6);
+    font-size: 6vw;
+    padding-bottom: 10vh;
+}
+
+.button-holder {
+    width: fit-content;
+    margin: auto;
+    padding: 1vh 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.nav-button {
+    color: white;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.6);
+    text-transform: uppercase;
+    font-family: $brand-font;
+    font-size: 1.5vw;
+    padding: 1vh 1vw;
+    margin: 1vh 1vw;
+    border: 3px solid white;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    transition: .3s;
+    box-shadow: 2px 4px 3px rgba(0,0,0,0.6);;
+}
+
+.nav-button:hover::after {
+    content:'';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 0%;
+    height: 0%;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 5px;
+    animation: buttonExpand .2s linear forwards;
+    z-index: -1;
+}
+
+.nav-button:hover {
+    color: black;
+    cursor: pointer;
+    text-shadow: none;
+}
+
+@keyframes buttonExpand {
+    0% {
+        width: 0%;
+        height: 0%
+    }
+    100% {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.content-block {
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+    padding: 3vh 15vw;
+}
+
+.content-block h1 {
+    font-family: $brand-font;
+    font-size: 4vw;
+    color: rgb(50, 50, 50);
+    padding-bottom: 3vh;
+}
+
+.content-block p {
+    font-family: $base-font;
+    font-size: 1vw;
+    line-height:2em;
+    text-align: justify;
+
+}
+
+.image-holder {
+    flex: 4;
+    display: block;
+}
+
+.beer-image {
+    background-image: url('static/images/people-drinking-long-flipped.jpg');
+    background-size: cover;
+    padding: 5vh 5vw;
+}
+
+.content-wrapper {
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.beer-image:hover::after {
+    content:"";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0,0.3);
+}
+
+.beer-image::after{
+    content:"";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0,0);
+    transition: .5s;
+}
+
+.schedule {
+    flex: 1;
+    z-index: 999;
+    
+}
+
+.content-wrapper h1 {
+    text-align: center;
+    color: white;
+}
+
+
+.schedule-columns {
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+
+
+.schedule-day{
+    font-size: 1.5vw;
+    font-family: $brand-font;
+    color: white;
+    font-weight: normal;
+    text-align: right;
+    width: 13vw;
+    text-shadow: 2px 2px 2px rgba(0,0,0,1);
+}
+
+
+.schedule-hour {
+    font-size: 1.5vw;
+    font-family: $brand-font;
+    font-weight: normal;
+    color: white;
+    text-align: left;
+    margin-left: 1vw;
+    width: 13vw;
+    text-shadow: 2px 4px 3px rgba(0,0,0,1);
+}
+
+.ravens {
+    color: rgb(203, 108, 203);
+}
+
+.google-map {
+    border: none;
+    width: 60vw;
+    height: 15vw;
+}
+
+
+.location-info {
+    padding-right: 5vw;
+    text-align: center;
+}
+
+.location-info h3 {
+    font-family: $brand-font;
+    font-size: 2.5vw;
+    margin-bottom: 4vh
+}
+
+.location-info p {
+    text-align: center;
+}
