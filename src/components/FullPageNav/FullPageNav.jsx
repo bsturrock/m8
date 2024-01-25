@@ -7,7 +7,7 @@ const FullPageNav = () => {
     return (
         <>
         <div className="full-page-nav">
-            <img onLoad={()=>setShowImage(true)} id='splash-image' className={showImage?'show-splash':''} src="public/static/images/variant-brewing-darker.png" alt="" />
+            <img onLoad={()=>setShowImage(true)} id='splash-image' className={showImage?'show-splash':''} src="static/images/variant-brewing-darker.png" alt="" />
             <div className="main-navigation-wrapper">
                 <div className="main-navigation">
                     <div className="navigation-item">
