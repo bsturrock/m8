@@ -10,7 +10,7 @@
 .socials-title {
     width: fit-content;
     margin: auto;
-    padding-bottom: 5vh;
+    padding-bottom: 3vh;
     color: $m8-clay;
     font-family: $brand-font;
     font-weight: normal;
@@ -51,6 +51,7 @@
 .mailing-list-input {
     flex: 1;
     border: 2px solid $m8-clay;
+    border-right: none;
     border-radius: 10px 0 0 10px;
     font-size: 1.5vw;
     padding: 0 .5vw;
@@ -85,4 +86,10 @@
     width: fit-content;
     margin: auto;
     transition: .2s
+}
+
+.mailing-list-join:hover {
+    cursor: pointer;
+    background-color: $m8-clay-hover;
+    border-color: $m8-clay-hover;
 }

@@ -1,11 +1,10 @@
 @import "src/utils/variables.scss";
 
 .beer-splash {
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
     position: relative;
+    height: 30vw;
+    background-image: url('/static/images/people-drinking-hero-2.jpg');
+    background-size: cover;
 }
 
 .beer-splash-image {
@@ -26,8 +25,8 @@
     font-size: 1.5vw;
     padding: 1vh 1vw;
     margin: 1vh 1vw;
-    border: 3px solid $m8-pink;
-    background-color: $m8-pink;
+    border: 3px solid white;
+    background-color: white;
     border-radius: 5px;
     position: relative;
     z-index: 1;
@@ -39,8 +38,8 @@
 }
 
 .beer-splash-button:hover {
-    background-color: white;
-    border: 3px solid white;
+    background-color: $m8-pink;
+    border: 3px solid $m8-pink;
     cursor: pointer;
 }
 
@@ -52,7 +51,7 @@
     top: 0%;
     left: 50%;
     transform: translateX(-50%);
-    color: $m8-pink;
+    color: white;
     font-size: 1.3vw;
     font-weight: bold;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.6);
