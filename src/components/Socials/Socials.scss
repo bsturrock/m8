@@ -1,0 +1,88 @@
+@import "src/utils/variables.scss";
+
+
+.socials {
+    display: block;
+    background-color: $m8-pink;
+    padding: 5vh 0;
+}
+
+.socials-title {
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 5vh;
+    color: $m8-clay;
+    font-family: $brand-font;
+    font-weight: normal;
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+
+.socials-icons {
+    width: fit-content;
+    margin: auto;
+}
+
+.insta-link {
+    font-size: 6vw;
+    color: $m8-clay;
+    transition: .2s;
+}
+
+.insta-link:hover {
+    color: $m8-clay-hover;
+    cursor: pointer;
+}
+
+.mailing-list {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 70vw;
+}
+
+.mailing-list-title {
+    color: $m8-clay;
+    font-family: $brand-font;
+    font-weight: normal;
+    font-size: 2vw;
+}
+
+.mailing-list-input {
+    flex: 1;
+    border: 2px solid $m8-clay;
+    border-radius: 10px 0 0 10px;
+    font-size: 1.5vw;
+    padding: 0 .5vw;
+    font-family: $brand-font;
+    background-color: $m8-pink;
+    font-weight: normal;
+    color: $m8-clay;
+    margin: 0 0 0 1vw;
+}
+
+.mailing-list-input::placeholder {
+    color: $m8-dark-pink;
+}
+
+.mailing-list-input:focus {
+    outline: none;
+}
+
+.mailing-list-join {
+    color: white;
+    text-transform: uppercase;
+    font-family: $brand-font;
+    font-size: 1vw;
+    padding: 1vh 1vw;
+    margin: 1vh 1vw;
+    border: 3px solid $m8-clay;
+    background-color: $m8-clay;
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+    width: fit-content;
+    margin: auto;
+    transition: .2s
+}

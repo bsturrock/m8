@@ -2,7 +2,8 @@ import './HomePage.scss'
 
 import FullPageNav from '../../components/FullPageNav/FullPageNav'
 import Schedule from '../../components/Schedule/Schedule'
-
+import BeerSplash from '../../components/BeerSplash/BeerSplash'
+import Socials from '../../components/Socials/Socials'
 const HomePage = () => {
 
 
@@ -12,6 +13,8 @@ const HomePage = () => {
         <div className="home">
             <FullPageNav/>
             <Schedule/>
+            <BeerSplash/>
+            <Socials/>
         </div>
         </>
     )

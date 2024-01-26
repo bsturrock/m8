@@ -1,0 +1,61 @@
+@import "src/utils/variables.scss";
+
+.beer-splash {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.beer-splash-image {
+    width: 100%;
+}
+
+.beer-splash-buttons {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.beer-splash-button {
+    color: black;
+    text-transform: uppercase;
+    font-family: $brand-font;
+    font-size: 1.5vw;
+    padding: 1vh 1vw;
+    margin: 1vh 1vw;
+    border: 3px solid $m8-pink;
+    background-color: $m8-pink;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+    box-shadow: 2px 4px 3px rgba(0,0,0,0.6);;
+    width: fit-content;
+    margin: auto;
+    transition: .2s
+}
+
+.beer-splash-button:hover {
+    background-color: white;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.beer-splash-blurb {
+    position: absolute;
+    width: 100%;
+    padding: 5vh 5vw;
+    background-color: rgba(0,0,0,0.7);
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $m8-pink;
+    font-size: 1.3vw;
+    font-weight: bold;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.6);
+    font-family: $base-font;
+    text-align: center;
+}
