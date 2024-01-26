@@ -1,0 +1,76 @@
+@import "src/utils/variables.scss";
+
+.schedule {
+    background-color: $m8-clay;
+    padding: 5vh 0;
+}
+
+.hours-title {
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 5vh;
+    color: $m8-pink;
+    font-family: $brand-font;
+    font-weight: normal;
+    font-size: 3vw;
+    text-transform: uppercase;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.6);
+}
+
+.schedule-days {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.schedule-day {
+     flex: 1;
+     padding: 0 3vw;
+}
+
+.day-name-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1vh;
+}
+
+.schedule-divider {
+    border-bottom: 2px solid $m8-pink;
+    box-shadow: 2px 4px 3px rgba(0,0,0,0.6);;
+}
+
+.hours-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+}
+
+.hours {
+    font-size: 1.2vw;
+    text-align: center;
+    color: $m8-pink;
+    font-family: $brand-font;
+    font-weight: normal;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.6);
+}
+
+.day-name{
+    font-size: 2vw;
+    text-align: center;
+    color: $m8-pink;
+    font-family: $brand-font;
+    font-weight: normal;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.6);
+}
+
+.ravens-wrapper {
+    width: fit-content;
+    margin: auto;
+    padding-top: 5vh;
+    color: $m8-pink;
+    font-family: $brand-font;
+    font-size: 1.5vw;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.6);
+}
