@@ -5,6 +5,7 @@ import Schedule from '../../components/Schedule/Schedule'
 import BeerSplash from '../../components/BeerSplash/BeerSplash'
 import Socials from '../../components/Socials/Socials'
 import FindUs from '../../components/FindUs/FindUs'
+import Footer from '../../components/Footer/Footer'
 const HomePage = () => {
 
 
@@ -17,6 +18,7 @@ const HomePage = () => {
             <BeerSplash/>
             <Socials/>
             <FindUs/>
+            <Footer/>
         </div>
         </>
     )

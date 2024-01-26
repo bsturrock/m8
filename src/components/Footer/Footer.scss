@@ -1,0 +1,56 @@
+@import "src/utils/variables.scss";
+
+.footer {
+    display: block;
+    background-color: white;
+    padding: 3vh 0;
+}
+
+.footer-logo {
+    width: 4vw;
+    height: 4vw;
+}
+
+.footer-logo-wrapper {
+    width: fit-content;
+    margin: auto;
+    font-family: $brand-font;
+    color: rgb(50,50,50);
+    font-size: 1vw;
+}
+
+.footer-copyright {
+    color: rgb(50,50,50);
+    font-family: $base-font;
+    font-size: .7vw;
+    margin:auto;
+    width: fit-content;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+
+.footer-powered-by {
+    color: rgb(50,50,50);
+    font-family: $base-font;
+    font-size: .5vw;
+    margin:auto;
+    width: fit-content;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+.footer-powered-by span {
+    padding-left: 1vw;
+}
+
+
+.rocket {
+    margin: auto;
+    width: fit-content;
+    font-size: 1.5vw;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+}

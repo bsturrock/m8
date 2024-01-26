@@ -9,7 +9,7 @@
     width: fit-content;
     margin: auto;
     padding-bottom: 5vh;
-    color: $m8-pink;
+    color: white;
     font-family: $brand-font;
     font-weight: normal;
     font-size: 3vw;
@@ -36,7 +36,7 @@
 }
 
 .schedule-divider {
-    border-bottom: 2px solid $m8-pink;
+    border-bottom: 2px solid white;
     box-shadow: 2px 4px 3px rgba(0,0,0,0.6);;
 }
 
@@ -50,7 +50,7 @@
 .hours {
     font-size: 1.2vw;
     text-align: center;
-    color: $m8-pink;
+    color: white;
     font-family: $brand-font;
     font-weight: normal;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.6);
@@ -59,7 +59,7 @@
 .day-name{
     font-size: 2vw;
     text-align: center;
-    color: $m8-pink;
+    color: white;
     font-family: $brand-font;
     font-weight: normal;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.6);
@@ -69,7 +69,7 @@
     width: fit-content;
     margin: auto;
     padding-top: 5vh;
-    color: $m8-pink;
+    color: white;
     font-family: $brand-font;
     font-size: 1.5vw;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.6);

@@ -17,6 +17,7 @@ const Schedule = () => {
             <div className="ravens-wrapper">
                 Ravens Gamedays: Open at 9am
             </div>
+            <img src="static/images/" alt="" />
         </div>
     )
 }
