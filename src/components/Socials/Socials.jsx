@@ -5,7 +5,7 @@ import Spinner from '../Spinner/Spinner';
 const Socials = () => {
 
     const mailingList = useRef(null)
-    const [waiting, setWaiting] = useState(true)
+    const [waiting, setWaiting] = useState(false)
     const [addedToMailingList, setAddedToMailingList] = useState(false)
     const [message, setMessage] = useState({status:null, message:''})
 
