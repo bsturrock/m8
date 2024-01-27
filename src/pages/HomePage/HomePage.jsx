@@ -1,11 +1,11 @@
 import './HomePage.scss'
 
-import FullPageNav from '../../components/FullPageNav/FullPageNav'
-import Schedule from '../../components/Schedule/Schedule'
-import BeerSplash from '../../components/BeerSplash/BeerSplash'
-import Socials from '../../components/Socials/Socials'
-import FindUs from '../../components/FindUs/FindUs'
-import Footer from '../../components/Footer/Footer'
+import FullPageNav from '../../components/HomePage/FullPageNav/FullPageNav'
+import Schedule from '../../components/HomePage/Schedule/Schedule'
+import BeerSplash from '../../components/HomePage/BeerSplash/BeerSplash'
+import Socials from '../../components/HomePage/Socials/Socials'
+import FindUs from '../../components/HomePage/FindUs/FindUs'
+import Footer from '../../components/Universal/Footer/Footer'
 const HomePage = () => {
 
 

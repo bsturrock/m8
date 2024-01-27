@@ -1,7 +1,7 @@
 import './Socials.scss'
 import { IoLogoInstagram } from "react-icons/io5";
 import { useState, useRef } from 'react';
-import Spinner from '../Spinner/Spinner';
+import Spinner from '../../Universal/Spinner/Spinner';
 const Socials = () => {
 
     const mailingList = useRef(null)

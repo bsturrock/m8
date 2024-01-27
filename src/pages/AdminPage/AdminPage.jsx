@@ -1,5 +1,5 @@
 import './AdminPage.scss'
-import AdminModal from '../../components/AdminModal/AdminModal'
+import AdminModal from '../../components/AdminPage/AdminModal/AdminModal'
 import { useState } from 'react'
 
 const AdminPage = () => {
