@@ -10,21 +10,22 @@
 .socials-title {
     width: fit-content;
     margin: auto;
-    padding-bottom: 3vh;
+    padding-bottom: 2vh;
     color: $m8-clay;
     font-family: $brand-font;
     font-weight: normal;
-    font-size: 3vw;
+    font-size: 2vw;
     text-transform: uppercase;
 }
 
 .socials-icons {
     width: fit-content;
     margin: auto;
+    margin-bottom: 3vh;
 }
 
 .insta-link {
-    font-size: 6vw;
+    font-size: 4vw;
     color: $m8-clay;
     transition: .2s;
 }
