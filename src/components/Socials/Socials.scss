@@ -49,6 +49,14 @@
     font-size: 2vw;
 }
 
+.joined-mailing-list {
+    color: $m8-clay;
+    font-family: $brand-font;
+    font-weight: normal;
+    font-size: 2vw;
+    margin: auto;
+}
+
 .mailing-list-input {
     flex: 1;
     border: 2px solid $m8-clay;
@@ -84,13 +92,41 @@
     position: relative;
     z-index: 1;
     transition: .5s;
-    width: fit-content;
     margin: auto;
-    transition: .2s
+    transition: .2s;
+    width: 5vw;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.spinner-wrapper {
+    margin: auto;
+
 }
 
 .mailing-list-join:hover {
     cursor: pointer;
     background-color: $m8-clay-hover;
     border-color: $m8-clay-hover;
+}
+
+.error-message {
+    color: rgb(216, 0, 0);
+    font-family: $brand-font;
+    font-weight: normal;
+    width: fit-content;
+    margin: auto;
+    padding: 1vh;
+    font-size: .8vw;
+}
+
+.message-placeholder {
+    font-family: $brand-font;
+    font-weight: normal;
+    width: fit-content;
+    margin: auto;
+    padding: 1vh;
+    font-size: .8vw;
+    color: $m8-pink;
 }

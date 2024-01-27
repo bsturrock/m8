@@ -33,7 +33,7 @@ const FullPageNav = () => {
                     <div className="nav-button">MENU</div>
                 </div>
                 <div className="button-holder">
-                    <div className="nav-button">HOURS</div>
+                    <div className="nav-button">The Brewery</div>
                 </div>
             </div>
         </div>
