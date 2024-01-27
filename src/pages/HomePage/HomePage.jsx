@@ -9,17 +9,16 @@ import Footer from '../../components/Universal/Footer/Footer'
 const HomePage = () => {
 
 
-
     return (
         <>
-        <div className="home">
-            <FullPageNav/>
-            <Schedule/>
-            <BeerSplash/>
-            <Socials/>
-            <FindUs/>
-            <Footer/>
-        </div>
+            <div className="home">
+                <FullPageNav/>
+                <Schedule/>
+                <BeerSplash/>
+                <Socials/>
+                <FindUs/>
+                <Footer/>
+            </div>
         </>
     )
 }

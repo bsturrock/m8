@@ -1,0 +1,72 @@
+@import "src/utils/variables.scss";
+
+
+.modal-21 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $m8-pink;
+}
+
+.modal-21-content {
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    color: $m8-clay;
+    font-family: $brand-font;
+}
+
+.modal-21-content h4 {
+    font-size: 2vw;
+}
+
+.modal-21-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.modal-21-button {
+    padding: 1vh 2vw;
+    margin: 0 1vw;
+    border-radius: 5px;
+    border: 2px solid $m8-clay;
+    position: relative;
+    z-index: 1;
+    transition: .2s;
+}
+
+.modal-21-button:hover::after {
+    content:'';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 0%;
+    height: 0%;
+    background-color: $m8-clay;
+    border: 2px solid $m8-clay;
+    border-radius: 5px;
+    animation: buttonExpand .2s linear forwards;
+    z-index: -1;
+}
+
+.modal-21-button:hover {
+    color: white;
+    cursor: pointer;
+    text-shadow: none;
+}
+
+
+.modal-21-logo {
+    position:absolute;
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+}
+
+.modal-21-logo img {
+    width: 15vw;
+}
