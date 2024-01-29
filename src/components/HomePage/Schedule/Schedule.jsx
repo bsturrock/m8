@@ -6,13 +6,13 @@ const Schedule = () => {
         <div className="schedule">
             <h4 className='hours-title'>Hours</h4>
             <div className="schedule-days">
-                <ScheduleDay day='Sunday'/>
-                <ScheduleDay day='Monday'/>
-                <ScheduleDay day='Tuesday'/>
-                <ScheduleDay day='Wednesday'/>
-                <ScheduleDay day='Thursday'/>
-                <ScheduleDay day='Friday'/>
-                <ScheduleDay day='Saturday'/>
+                <ScheduleDay day='Sunday' times='12pm - 11pm' kitchen={true}/>
+                <ScheduleDay day='Monday' times='CLOSED' kitchen={false}/>
+                <ScheduleDay day='Tuesday' times='4pm - 10pm' kitchen={false}/>
+                <ScheduleDay day='Wednesday' times='4pm - 10pm' kitchen={true}/>
+                <ScheduleDay day='Thursday' times='4pm - 10pm' kitchen={true}/>
+                <ScheduleDay day='Friday' times='12pm - 11pm' kitchen={true}/>
+                <ScheduleDay day='Saturday' times='12pm - 11pm' kitchen={true}/>
             </div>
             <div className="ravens-wrapper">
                 Ravens Gamedays: Open at 9am

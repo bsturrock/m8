@@ -51,8 +51,9 @@
     font-size: 1.2vw;
     text-align: center;
     color: white;
-    font-family: $brand-font;
+    font-family: $base-font;
     font-weight: normal;
+    text-transform: uppercase;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.6);
 }
 
@@ -70,7 +71,24 @@
     margin: auto;
     padding-top: 5vh;
     color: white;
-    font-family: $brand-font;
+    font-family: $base-font;
+    text-transform: uppercase;
     font-size: 1.5vw;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.6);
+}
+
+.kitchen-hours {
+    font-size: .8vw;
+    text-align: center;
+    color: white;
+    font-family: $base-font;
+    font-weight: lighter;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.6);
+}
+
+.kitchen-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1vh;
 }

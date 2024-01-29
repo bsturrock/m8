@@ -46,16 +46,16 @@
 .beer-splash-blurb {
     position: absolute;
     width: 100%;
-    padding: 5vh 5vw;
+    padding: 3vh 5vw;
     background-color: rgba(0,0,0,0.5);
     top: 0%;
     left: 50%;
     transform: translateX(-50%);
     color: white;
     font-size: 1.3vw;
-    font-weight: bold;
+    font-weight: bolder;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.6);
-    font-family: $brand-font;
+    font-family: $base-font;
     font-weight: normal;
     text-align: center;
     line-height: 1.5em;
