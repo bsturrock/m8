@@ -17,13 +17,14 @@ h1,h2,h3,h4,h5 {
     position: absolute;
     left: 0;
     top: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     opacity: 0;
     transition: 1s ease;
     -webkit-transition: all 1s ease;
     pointer-events: none;
     z-index: -1;
+    object-fit: cover;
 }
 
 .show-splash {
@@ -147,8 +148,6 @@ h1,h2,h3,h4,h5 {
     z-index: 1;
     transition: .5s;
     box-shadow: 2px 4px 3px rgba(0,0,0,0.6);;
-
-    
 }
 
 .nav-button:hover::after {
