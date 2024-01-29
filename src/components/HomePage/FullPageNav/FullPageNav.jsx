@@ -28,12 +28,12 @@ const FullPageNav = () => {
                 </div>
             </div>
             <div className="nav-splash">
-                <h1 className="nav-greeting">G&#39;DAY, M8!</h1>
+                <h1 className={`nav-greeting${showImage ? ' appear' : ''}`}>G&#39;DAY, M8!</h1>
                 <div className="button-holder">
-                    <div className="nav-button">MENU</div>
+                    <div className={`nav-button${showImage?' show-splash':''}`}>MENU</div>
                 </div>
                 <div className="button-holder">
-                    <div className="nav-button">The Brewery</div>
+                    <div className={`nav-button${showImage?' show-splash':''}`}>The Brewery</div>
                 </div>
             </div>
         </div>

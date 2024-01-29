@@ -31,9 +31,18 @@ h1,h2,h3,h4,h5 {
     animation: showSplash 1s ease forwards;
 }
 
+.nav-button.show-splash {
+    animation: showSplash 1s .5s ease forwards;
+}
+
 @keyframes showSplash {
     0% {opacity: 0;}
     100% {opacity: 1;}
+}
+
+@keyframes showGreeting {
+    0% {opacity: 0; transform: translateY(-50px);}
+    100% {opacity: 1; transform:  translateY(0);}
 }
 
 .main-navigation-wrapper {
@@ -123,6 +132,11 @@ h1,h2,h3,h4,h5 {
     text-shadow: 2px 4px 3px rgba(0,0,0,0.6);
     font-size: 6vw;
     padding-bottom: 10vh;
+    opacity: 0;
+}
+
+.nav-greeting.appear {
+    animation: showGreeting 1s .5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
 }
 
 .button-holder {
@@ -147,6 +161,7 @@ h1,h2,h3,h4,h5 {
     position: relative;
     z-index: 1;
     transition: .5s;
+    opacity: 0;
     box-shadow: 2px 4px 3px rgba(0,0,0,0.6);;
 }
 
