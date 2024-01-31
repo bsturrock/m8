@@ -19,14 +19,14 @@
 }
 
 .beer-splash-button {
-    color: black;
+    color: $m8-clay;
     text-transform: uppercase;
     font-family: $brand-font;
     font-size: 1.5vw;
     padding: 1vh 1vw;
     margin: 1vh 1vw;
-    border: 3px solid white;
-    background-color: white;
+    border: 3px solid $m8-pink;
+    background-color: $m8-pink;
     border-radius: 5px;
     position: relative;
     z-index: 1;
@@ -38,20 +38,21 @@
 }
 
 .beer-splash-button:hover {
-    background-color: $m8-pink;
-    border: 3px solid $m8-pink;
+    background-color: white;
+    border: 3px solid white;
+    color: black;
     cursor: pointer;
 }
 
 .beer-splash-blurb {
     position: absolute;
     width: 100%;
-    padding: 3vh 5vw;
+    padding: 3vh 15vw;
     background-color: rgba(0,0,0,0.5);
     top: 0%;
     left: 50%;
     transform: translateX(-50%);
-    color: white;
+    color: $m8-pink;
     font-size: 1vw;
     font-weight: bolder;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.6);

@@ -1,5 +1,14 @@
 
-const ScheduleDay = ({day, times, kitchen}) => {
+const ScheduleDay = ({day, openTime, closeTime, kitchen}) => {
+    console.log(openTime, closeTime)
+    const hoursText = () => {
+        if(openTime=='CLOSED'){
+            return 'CLOSED'
+        } else {
+            return `${openTime} - ${closeTime}`
+        }
+    }
+
     return(
         <div className="schedule-day">
             <div className="day-name-wrapper">
@@ -7,9 +16,9 @@ const ScheduleDay = ({day, times, kitchen}) => {
             </div>
             <div className="schedule-divider"></div>
             <div className="hours-wrapper">
-                <h4 className="hours">{times}</h4>
+                <h4 className="hours">{hoursText()}</h4>
             </div>
-            {day != 'Monday' && 
+            {openTime != 'CLOSED' && 
             <div className="kitchen-wrapper">
                 <h4 className="kitchen-hours">KITCHEN: {kitchen ? "OPEN" : "CLOSED"}</h4>
             </div>

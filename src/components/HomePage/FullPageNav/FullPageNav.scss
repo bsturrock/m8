@@ -74,7 +74,7 @@ h1,h2,h3,h4,h5 {
 }
 
 .nav-selector {
-    color: rgb(240,240,240);
+    color: $m8-pink;
     text-transform: uppercase;
     font-size: 1.5vw;
     position: relative;
@@ -128,7 +128,7 @@ h1,h2,h3,h4,h5 {
 
 .nav-greeting {
     font-family: $brand-font;
-    color: white;
+    color: $m8-pink;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.6);
     font-size: 6vw;
     padding-bottom: 10vh;
@@ -149,14 +149,14 @@ h1,h2,h3,h4,h5 {
 }
 
 .nav-button {
-    color: white;
+    color: $m8-pink;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.6);
     text-transform: uppercase;
     font-family: $brand-font;
     font-size: 1.5vw;
     padding: 1vh 1vw;
     margin: 1vh 1vw;
-    border: 3px solid white;
+    border: 3px solid $m8-pink;
     border-radius: 5px;
     position: relative;
     z-index: 1;
@@ -173,15 +173,15 @@ h1,h2,h3,h4,h5 {
     transform: translate(-50%, -50%);
     width: 0%;
     height: 0%;
-    background-color: white;
-    border: 3px solid white;
+    background-color: $m8-pink;
+    border: 3px solid $m8-pink;
     border-radius: 5px;
     animation: buttonExpand .2s linear forwards;
     z-index: -1;
 }
 
 .nav-button:hover {
-    color: black;
+    color: $m8-clay;
     cursor: pointer;
     text-shadow: none;
 }

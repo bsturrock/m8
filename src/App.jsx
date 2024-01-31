@@ -7,7 +7,7 @@ import Modal21 from './components/HomePage/Modal21/Modal21'
 import { useState } from 'react'
 
 function App() {
-  const [over21, setOver21] = useState(false)
+  const [over21, setOver21] = useState(true)
   return (
     <>
     {!over21 && <Modal21 setOver21={setOver21}/>}

@@ -1,7 +1,7 @@
 import './Spinner.scss'
-const Spinner = () => {
+const Spinner = ({color='white'}) => {
     return (
-        <span className="loader"></span>
+        <span className={`loader ${color}`}></span>
     )
 }
 
